@@ -1,9 +1,58 @@
 [
   {
-    "dir_name": "信息收集",
+    "dir_name": "dir_scan",
+    "tools_list": {
+      "JSFinderAAA": {
+        "url": "https://github.com/msfisgood/JSFinderAAA",
+        "type": "source",
+        "platform": {}
+      },
+      "URLFinder": {
+        "url": "https://github.com/pingc0y/URLFinder",
+        "type": "binary",
+        "platform": {
+          "linux": {
+            "amd64": "Linux_x86_64"
+          }
+        }
+      },
+      "dirsearch": {
+        "url": "https://github.com/maurosoria/dirsearch",
+        "type": "source",
+        "platform": {}
+      }
+    }
+  },
+  {
+    "dir_name": "info_collection",
     "tools_list": {
       "AppInfoScanner": {
         "url": "https://github.com/kelvinBen/AppInfoScanner",
+        "type": "source",
+        "platform": {}
+      },
+      "Ds_store_exp": {
+        "url": "https://github.com/lijiejie/ds_store_exp",
+        "type": "source",
+        "": {}
+      },
+      "Gitgraber": {
+        "url": "https://github.com/hisxo/gitGraber",
+        "type": "source",
+        "platform": {}
+      },
+      "Githack": {
+        "url": "https://github.com/lijiejie/GitHack",
+        "type": "source",
+        "platform": {}
+      },
+      "Gitminer": {
+        "url": "https://github.com/UnkL4b/GitMiner",
+        "type": "source",
+        "platform": {}
+      },
+      "Svnexploit": {
+        "url": "https://github.com/admintony/svnExploit",
         "type": "source",
         "platform": {}
       },
@@ -17,7 +66,7 @@
         "type": "source",
         "platform": {}
       },
-      "Glass": {
+      "glass": {
         "url": "https://github.com/s7ckTeam/Glass",
         "type": "source",
         "platform": {}
@@ -53,7 +102,114 @@
     }
   },
   {
-    "dir_name": "漏洞扫描",
+    "dir_name": "keep-permission",
+    "tools_list": {
+      "Girsh": {
+        "url": "https://github.com/nodauf/Girsh",
+        "type": "binary",
+        "platform": {
+          "linux": "linux_amd64"
+        }
+      },
+      "Govenmon": {
+        "url": "https://github.com/arch3rPro/Govenom",
+        "type": "binary",
+        "platform": {
+          "linux": "linux_amd64"
+        }
+      },
+      "platypus": {
+        "url": "https://github.com/WangYihang/Platypus",
+        "type": "source",
+        "platform": {}
+      },
+      "platypus-bin": {
+        "url": "https://github.com/WangYihang/Platypus",
+        "type": "binary",
+        "platform": {
+          "linux": "linux_amd64"
+        }
+      }
+    }
+  },
+  {
+    "dir_name": "password-attack",
+    "tools_list": {
+      "HackBrowserData": {
+        "url": "https://github.com/moonD4rk/HackBrowserData",
+        "type": "source",
+        "platform": {}
+      },
+      "patator": {
+        "url": "https://github.com/lanjelot/patator",
+        "type": "source",
+        "platform": {}
+      },
+      "probable-Wordlists": {
+        "url": "https://github.com/berzerk0/Probable-Wordlists",
+        "type": "source",
+        "platform": {}
+      },
+      "psudohash": {
+        "url": "https://github.com/t3l3machus/psudohash",
+        "type": "source",
+        "platform": {}
+      }
+    }
+  },
+  {
+    "dir_name": "pentest-framework",
+    "tools_list": {
+      "pocsuite3": {
+        "url": "https://github.com/knownsec/pocsuite3",
+        "type": "source",
+        "platform": {}
+      }
+    }
+  },
+  {
+    "dir_name": "port-forward",
+    "tools_list": {
+      "frp": {
+        "url": "https://github.com/fatedier/frp",
+        "type": "binary",
+        "platform": {
+          "linux": "linux_amd64"
+        }
+      },
+      "frp-mgr": {
+        "url": "https://github.com/Zo3i/frpMgr",
+        "type": "source",
+        "platform": {}
+      },
+      "Neo_reGeorg": {
+        "url": "https://github.com/L-codes/Neo-reGeorg",
+        "type": "source",
+        "platform": {}
+      },
+      "TXPortMap": {
+        "url": "https://github.com/4dogs-cn/TXPortMap",
+        "type": "binary",
+        "platform": {
+          "linux": "TxPortMap_linux_x64"
+        }
+      }
+    }
+  },
+  {
+    "dir_name": "platform",
+    "tools_list": {
+      "yakit": {
+        "url": "https://github.com/yaklang/yakit",
+        "type": "binary",
+        "platform": {
+          "linux": "linux-amd64"
+        }
+      }
+    }
+  },
+  {
+    "dir_name": "vuln-scan",
     "tools_list": {
       "xray": {
         "url": "https://github.com/chaitin/xray",
@@ -106,6 +262,14 @@
           }
         }
       },
+      "vscan": {
+        "url": "https://github.com/veo/vscan",
+        "type": "binary",
+        "platform": {
+          "linux": "linux_amd64"
+        }
+
+      },
       "vulmap": {
         "url": "https://github.com/zhzyker/vulmap",
         "type": "source",
@@ -114,7 +278,7 @@
     }
   },
   {
-    "dir_name": "内网工具",
+    "dir_name": "nat-tools",
     "tools_list": {
       "frp": {
         "url": "https://github.com/fatedier/frp",
@@ -158,20 +322,121 @@
     }
   },
   {
-    "dir_name": "免杀提权",
+    "dir_name": "bypass-tools",
     "tools_list": {
       "nim_shellloader": {
         "url": "https://github.com/sh3d0ww01f/nim_shellloader",
+        "type": "source",
+        "platform": {}
+      },
+      "GBByPass": {
+        "url": "https://github.com/czz1233/GBByPass",
         "type": "source",
         "platform": {}
       }
     }
   },
   {
-    "dir_name": "漏洞验证",
+    "dir_name": "vuln-use",
     "tools_list": {
       "sqlmap": {
         "url": "https://github.com/sqlmapproject/sqlmap",
+        "type": "source",
+        "platform": {}
+      },
+      "Advanced-SQL-Injection-Cheatsheet": {
+        "url": "https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet",
+        "type": "source",
+        "platform": {}
+      },
+      "commix": {
+        "url": "https://github.com/commixproject/commix",
+        "type": "source",
+        "platform": {}
+      },
+      "dalfox": {
+        "url": "https://github.com/hahwul/dalfox",
+        "type": "binary",
+        "platform": {
+          "linux": {
+            "amd64": "dalfox_2.9.0_linux_amd64.tar.gz"
+          }
+        }
+      },
+      "Fuxploider": {
+        "url": "https://github.com/almandin/fuxploider",
+        "type": "source",
+        "platform": {}
+      },
+      "JNDIExploit": {
+        "url": "https://github.com/WhiteHSBG/JNDIExploit",
+        "type": "binary",
+        "platform": {
+          "linux": "NDIExploit.v1.4.zip"
+        }
+      },
+      "LFISuite": {
+        "url": "https://github.com/D35m0nd142/LFISuite",
+        "type": "source",
+        "platform": {}
+      },
+      "ShiroExploit": {
+        "url": "https://github.com/feihong-cs/ShiroExploit-Deprecated",
+        "type": "binary",
+        "platform": {
+          "linux": "ShiroExploit.V2.51.7z"
+        }
+      },
+      "ShiroAttack2": {
+        "url": "https://github.com/SummerSec/ShiroAttack2",
+        "type": "binary",
+        "platform": {
+          "linux": "shiro_attack-4.5.6-SNAPSHOT-all.zip"
+        }
+      },
+      "SuperSQLInjection": {
+        "url": "https://github.com/shack2/SuperSQLInjectionV1",
+        "type": "binary",
+        "platform": {
+          "linux": "SQL.SSQLInjection.V1.0.20201214.zip"
+        }
+      },
+      "XSStrike": {
+        "url": "https://github.com/s0md3v/XSStrike",
+        "type": "source",
+        "platform": {}
+      },
+      "XXEinjector": {
+        "url": "https://github.com/enjoiz/XXEinjector",
+        "type": "source",
+        "platform": {}
+      },
+      "WeblogicTool": {
+        "url": "https://github.com/KimJun1010/WeblogicTool",
+        "type": "binary",
+        "platform": {
+          "linux": "WeblogicTool_1.1.jar"
+        }
+      }
+    }
+  },
+  {
+    "dir_name": "Fingerprint",
+    "tools_list": {
+      "CMSeeK": {
+        "url": "https://github.com/Tuhinshubhra/CMSeeK",
+        "type": "source",
+        "platform": {}
+      },
+      "ObserverWard": {
+        "url": "https://github.com/0x727/ObserverWard",
+        "type": "binary",
+        "platform": {
+          "linux": "linux-musl.tar.gz "
+        }
+      },
+      "TideFinger": {
+        "url": "https://github.com/TideSec/TideFinger",
         "type": "source",
         "platform": {}
       }
@@ -188,7 +453,7 @@
     }
   },
   {
-    "dir_name": "插件辅助",
+    "dir_name": "plugins",
     "tools_list": {
       "HaE": {
         "url": "https://github.com/gh0stkey/HaE",
