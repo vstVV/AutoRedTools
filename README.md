@@ -7,6 +7,11 @@ AutoRedTools是一款轻量级一站式自动下载/自动更新常用开源软�
 
 (注：本工具使用GitHub API能力，需要配置GitHub Token，未配置GitHub Token会被GitHub限制IP访问)
 
+##
+
+* **根据原工具进行数量上的扩展和补充，添加遍历安装requirements.txt脚本（install-python-enviroments.py）,添加增强脚本（setEnviroments.sh）用于设置GO环境及docker安装**
+* 工具扩展参考了项目[AceofHearts](https://github.com/Mustard404/AceofHearts)
+
 ## 前言
 
 - 本项目的开发者目前为个人开发者同时有自己的工作，新的功能或者需求会在闲暇时间进行开发，BUG会优先进行处理。
